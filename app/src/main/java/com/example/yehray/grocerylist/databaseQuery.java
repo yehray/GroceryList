@@ -1,4 +1,4 @@
-package package com.example.yehray.grocerylist;
+package com.example.yehray.grocerylist;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package edu.gatech.seclass.GroceryListManager.db;
+package com.example.yehray.grocerylist.db;
 
 import android.content.ContentValues;
 import android.content.Context;

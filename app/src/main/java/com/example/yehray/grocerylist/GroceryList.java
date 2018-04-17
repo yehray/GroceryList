@@ -1,4 +1,4 @@
-package package com.example.yehray.grocerylist;
+package com.example.yehray.grocerylist;
 
 import java.io.Serializable;
 import java.text.DateFormat;

@@ -1,4 +1,5 @@
-package package com.example.yehray.grocerylist;
+package com.example.yehray.grocerylist;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
