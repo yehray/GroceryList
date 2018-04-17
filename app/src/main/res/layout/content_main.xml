@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.gatech.seclass.GroceryListManager.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ListView
+        android:id="@+id/listMainView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:divider="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent" />
+</RelativeLayout>

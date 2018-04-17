@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Category"
+        android:layout_marginTop="20dp"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="@string/search_hint"
+        android:ems="10"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:digits="@string/filter_validation"
+        />
+
+
+</LinearLayout>

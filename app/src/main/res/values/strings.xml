@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">GroceryList</string>
+    <string name="app_name">GroceryListManager</string>
+    <string name="action_save">Save</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_add">Add Item</string>
+    <string name="action_clear">Reset</string>
+    <string name="search_hint">Type to search</string>
+    <string name="filter_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789()</string>
 </resources>
